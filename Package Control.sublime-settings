@@ -1,0 +1,16 @@
+{
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Git",
+		"Modific",
+		"Package Control",
+		"Theme - Nil"
+	],
+	"repositories":
+	[
+		"https://github.com/kemayo/sublime-text-2-git/tree/python3",
+		"https://github.com/gornostal/Modific/tree/python3",
+		"https://github.com/facelessuser/BracketHighlighter/tree/BH2ST3"
+	]
+}
