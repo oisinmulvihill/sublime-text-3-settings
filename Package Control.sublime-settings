@@ -1,11 +1,16 @@
 {
 	"installed_packages":
 	[
+		"AutoPEP8",
 		"BracketHighlighter",
 		"Git",
+		"GoSublime",
+		"Hayaku - tools for writing CSS faster",
+		"LaTeXTools",
 		"Modific",
 		"Package Control",
 		"SideBarEnhancements",
+		"SublimeJEDI",
 		"Theme - Nil"
 	],
 	"repositories":
