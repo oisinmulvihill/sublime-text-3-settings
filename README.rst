@@ -10,6 +10,7 @@ First install `Sublime Package Control`_.
 Please note, the Packages/ folder listed below refers to the folder that opens when you use the Preferences > Browse Packages… menu.
 
 .. code:: bash
+
     $ cd Packages/
     $ git clone https://github.com/wbond/sublime_package_control.git "Package Control"
     $ cd "Package Control"
