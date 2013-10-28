@@ -8,7 +8,7 @@ function doIt() {
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt
 else
-	read -p "This may overwrite your existing 'Sublime Text 2' settings. Are you sure? (y/n) " -n 1
+	read -p "This may overwrite your existing 'Sublime Text 3' settings. Are you sure? (y/n) " -n 1
 	echo
 	if [[ $REPLY =~ ^[Yy]$ ]]; then
 		doIt

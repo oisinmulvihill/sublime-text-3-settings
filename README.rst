@@ -7,16 +7,13 @@ Installation
 
 First install `Sublime Package Control`_.
 
-Please note, the Packages/ folder listed below refers to the folder that opens when you use the Preferences > Browse Packages… menu.
+The simplest method of installation is through the Sublime Text console. The console is accessed via the ``ctrl+``` shortcut or the ``View > Show Console menu``. Once open, paste the appropriate Python code into the console.
 
-.. code:: bash
+.. code:: python
 
-    $ cd Packages/
-    $ git clone https://github.com/wbond/sublime_package_control.git "Package Control"
-    $ cd "Package Control"
-    $ git checkout python3
+    import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 
-And close ``Sublime Text 3``.
+And reopen ``Sublime Text 3``.
 
 You can clone the repository wherever you want (I like to keep it in ``~/Documents/Projects/sublime-settings``). The bootstrapper script will pull in the latest version and copy the files to your home folder.
 
@@ -28,7 +25,7 @@ To update, ``cd`` into your local ``sublime-settings`` repository and then:
 
 .. code:: bash
 
-    $ git pull # optional: pull last version
+    $ git pull  # optional: pull last version
     $ ./bootstrap.sh
 
 Alternatively, to update while avoiding the confirmation prompt:
@@ -63,4 +60,4 @@ Reopen terminal and try:
     $ subl --help
 
 
-.. _`Sublime Package Control`: http://wbond.net/sublime_packages/package_control/installation#ST3
+.. _`Sublime Package Control`: https://sublime.wbond.net/installation

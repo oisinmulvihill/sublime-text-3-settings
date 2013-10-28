@@ -1,24 +1,10 @@
 {
 	"installed_packages":
 	[
-		"AutoPEP8",
 		"BracketHighlighter",
 		"Git",
 		"GitGutter",
-		"GoSublime",
-		"Hayaku - tools for writing CSS faster",
-		"LaTeXTools",
-		"Package Control",
 		"SideBarEnhancements",
-		"SublimeJEDI",
-		"SublimeLinter",
 		"Theme - Nil"
-	],
-	"repositories":
-	[
-		"https://github.com/kemayo/sublime-text-2-git/tree/python3",
-		"https://github.com/facelessuser/BracketHighlighter/tree/BH2ST3",
-		"https://github.com/titoBouzout/SideBarEnhancements/tree/st3",
-		"https://github.com/SublimeLinter/SublimeLinter/tree/sublime-text-3"
 	]
 }
