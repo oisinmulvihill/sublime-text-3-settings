@@ -1,10 +1,14 @@
 {
 	"installed_packages":
 	[
+		"AutoPEP8",
 		"BracketHighlighter",
 		"Git",
 		"GitGutter",
+		"GoSublime",
 		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
 		"Theme - Nil"
 	]
 }
