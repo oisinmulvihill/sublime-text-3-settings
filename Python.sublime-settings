@@ -1,4 +1,6 @@
 {
+	"auto_complete_selector": "-",
+	"auto_complete_triggers": [{"selector": "source.python", "characters": "."}],
 	"ensure_newline_at_eof_on_save": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
