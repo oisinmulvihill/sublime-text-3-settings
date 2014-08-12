@@ -1,17 +1,17 @@
-#!/bin/bash
+#!/usr/bin/env zsh
+
+echo "           _     _ _                  _            _     _____"
+echo " ___ _   _| |__ | (_)_ __ ___   ___  | |_ _____  _| |_  |___ /"
+echo "/ __| | | | '_ \| | | '_ \` _ \ / _ \ | __/ _ \ \/ / __|   |_ \\"
+echo "\__ \ |_| | |_) | | | | | | | |  __/ | ||  __/>  <| |_   ___) |"
+echo "|___/\__,_|_.__/|_|_|_| |_| |_|\___|  \__\___/_/\_\\\\\\__| |____/"
+echo ""
+
+echo "==> Here we go..."
 
 cd "$(dirname "$0")"
 
-function doIt() {
-	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude "README.rst" -av . ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
-}
-if [ "$1" == "--force" -o "$1" == "-f" ]; then
-	doIt
-else
-	read -p "This may overwrite your existing 'Sublime Text 3' settings. Are you sure? (y/n) " -n 1
-	echo
-	if [[ $REPLY =~ ^[Yy]$ ]]; then
-		doIt
-	fi
-fi
-unset doIt
+echo "  > Sync sublime text 3 config..."
+rsync --exclude ".git/" --exclude ".DS_Store" --exclude "Makefile" --exclude "bootstrap.sh" --exclude "README.rst" -av . ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+
+echo "==> Done with setup."
