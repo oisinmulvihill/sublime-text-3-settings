@@ -12,6 +12,6 @@ echo "==> Here we go..."
 cd "$(dirname "$0")"
 
 echo "  > Sync sublime text 3 config..."
-rsync --exclude ".git/" --exclude ".DS_Store" --exclude "Makefile" --exclude "bootstrap.sh" --exclude "README.rst" -av . ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+rsync --exclude ".git/" --exclude ".DS_Store" --exclude "Makefile" --exclude "bootstrap.sh" --exclude "README.rst" -av . ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ &> /dev/null
 
 echo "==> Done with setup."
