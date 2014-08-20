@@ -11,6 +11,9 @@ echo "==> Here we go..."
 
 cd "$(dirname "$0")"
 
+echo "  > Pulling latest sublime text 3 config..."
+git pull &> /dev/null
+
 echo "  > Sync sublime text 3 config..."
 rsync --exclude ".git/" --exclude ".DS_Store" --exclude "Makefile" --exclude "bootstrap.sh" --exclude "README.rst" -av . ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ &> /dev/null
 
