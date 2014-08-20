@@ -19,27 +19,13 @@ You can clone the repository wherever you want (I like to keep it in ``~/Documen
 
 .. code:: bash
 
-    $ git clone git@github.com:vaxXxa/sublime-text-3-settings.git sublime-settings && cd sublime-settings && ./bootstrap.sh
+    $ git clone git@github.com:vaxXxa/sublime-text-3-settings.git sublime-settings && cd sublime-settings && make
 
 To update, ``cd`` into your local ``sublime-settings`` repository and then:
 
 .. code:: bash
 
-    $ git pull  # optional: pull last version
-    $ ./bootstrap.sh
-
-Alternatively, to update while avoiding the confirmation prompt:
-
-.. code:: bash
-
-    $ git pull # optional: pull last version
-    $ ./bootstrap.sh -f
-
-or
-
-.. code:: bash
-
-    $ ./bootstrap.sh --force
+    $ make
 
 After that open ``Sublime Text 3`` and wait a few minutes. All packages are downloaded automatically. Then restart ``Sublime Text 3``.
 
