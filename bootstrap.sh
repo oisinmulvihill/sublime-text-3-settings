@@ -9,8 +9,6 @@ echo ""
 
 echo "==> Here we go..."
 
-cd "$(dirname "$0")"
-
 echo "  > Pulling latest sublime text 3 config..."
 git pull &> /dev/null
 
