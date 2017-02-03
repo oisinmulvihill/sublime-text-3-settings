@@ -8,6 +8,6 @@
 		"Jedi - Python autocompletion",
 		"SideBarEnhancements",
 		"SublimeLinter",
-		"SublimeLinter-pylint"
+		"SublimeLinter-flake8"
 	]
 }
