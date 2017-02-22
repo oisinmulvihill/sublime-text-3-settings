@@ -1,10 +1,20 @@
 {
 	"installed_packages":
 	[
+		"Anaconda",
 		"AutoPEP8",
+		"Color Highlighter",
+		"Themr",
+		"Jinja2",
+		"RestructuredText Improved",
+		"requirementstxt",
 		"BracketHighlighter",
 		"Git",
+		"GitSavvy",
 		"GitGutter",
+		"GitStatusBar",
+		"Glue",
+		"ASCII Decorator",
 		"Jedi - Python autocompletion",
 		"SideBarEnhancements",
 		"SublimeLinter",
