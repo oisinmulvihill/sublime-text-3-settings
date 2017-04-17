@@ -15,6 +15,7 @@
 		"GitStatusBar",
 		"Glue",
 		"ASCII Decorator",
+		"Babel",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-flake8"
