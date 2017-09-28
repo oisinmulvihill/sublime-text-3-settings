@@ -1,23 +1,32 @@
 {
+	"ignored_packages":
+	[
+		"JavaScript"
+	],
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Anaconda",
+		"ASCII Decorator",
 		"AutoPEP8",
-		"Color Highlighter",
-		"Themr",
-		"Jinja2",
-		"RestructuredText Improved",
-		"requirementstxt",
+		"Babel",
 		"BracketHighlighter",
+		"Color Highlighter",
 		"Git",
-		"GitSavvy",
 		"GitGutter",
+		"GitSavvy",
 		"GitStatusBar",
 		"Glue",
-		"ASCII Decorator",
-		"Babel",
+		"Jinja2",
+		"Package Control",
+		"requirementstxt",
+		"RestructuredText Improved",
 		"SideBarEnhancements",
 		"SublimeLinter",
-		"SublimeLinter-flake8"
+		"SublimeLinter-flake8",
+		"SublimeLinter-contrib-eslint",
+		"Themr"
 	]
 }

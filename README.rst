@@ -19,6 +19,10 @@ You can clone the repository wherever you want (I like to keep it in ``~/Documen
 
     $ git clone git@github.com:oisinmulvihill/sublime-text-3-settings.git sublime-settings && cd sublime-settings && make
 
+
+Start new ST3 and enter the license. Now install PackageControl and "Theme - Gravity" and exit. Be carefull of the Local/Session.sublime_session 
+and old project files which may have themes you don't have installed.
+
 To update, ``cd`` into your local ``sublime-settings`` repository and then:
 
 .. code:: bash
