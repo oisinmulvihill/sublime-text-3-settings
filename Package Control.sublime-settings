@@ -27,6 +27,7 @@
 		"SublimeLinter",
 		"SublimeLinter-flake8",
 		"SublimeLinter-contrib-eslint",
-		"Themr"
+		"Themr",
+		"PyYapf Python Formatter"
 	]
 }
