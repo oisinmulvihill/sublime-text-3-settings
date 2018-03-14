@@ -1,2 +1,7 @@
 {
+"paths": {
+   "osx": [
+    "/usr/local/bin/eslint"
+  ]
+}
 }

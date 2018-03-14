@@ -1,0 +1,10 @@
+{
+  "debug": false,
+  "use_local_babel": true,
+  "node_modules": {
+    "windows": "",
+    "linux": "",
+    "osx": "/usr/local/bin/node"
+  },
+  "options": {}
+}

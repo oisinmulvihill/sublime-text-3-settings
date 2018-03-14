@@ -5,7 +5,8 @@ install:
 
 eslint:
 	# https://eslint.org/docs/user-guide/getting-started
-	npm install -g eslint
+	# npm install -g eslint
+	npm install -g babel-eslint eslint eslint-config-airbnb eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-import mocha
 
 flake8:
 	# Support SublimeLinter-flake8 plugin
