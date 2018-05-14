@@ -22,12 +22,12 @@
 		"Jinja2",
 		"Package Control",
 		"requirementstxt",
-		"RestructuredText Improved",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
 		"SublimeLinter-contrib-eslint",
 		"Themr",
-		"PyYapf Python Formatter"
+		"PyYapf Python Formatter",
+		"Terraform"
 	]
 }
